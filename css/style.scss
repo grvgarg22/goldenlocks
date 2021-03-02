@@ -184,6 +184,7 @@ footer {background-color: #eee; display: flex; flex-wrap: wrap; justify-content:
 
 /**** CATEGORY PAGE ****/
 .category-page {
+	.home-desc {width: 95%;}
 	.cat-about {text-align: center; margin: 2rem auto 5rem; width: 78%;
 		h2 {font-family: $heading; margin-bottom: 1rem; text-transform: uppercase; color: #555;}
 		p {font-weight: 400; color: #555;
@@ -231,6 +232,7 @@ footer {background-color: #eee; display: flex; flex-wrap: wrap; justify-content:
 	.home-finishes p {width: 100%;}
 	.category-page .category .cat-heading {width: 50%;}
 	.product-page .order-details {padding: 1rem;}
+	.category-page .category .uniq {border: none;}
 	.product-page .order-details .product-info {border-bottom: 1px solid #555; border-right: none; margin-bottom: 2rem; padding: 2rem 0;}
 	.product-page .order-details .product-order {border-top: 1px solid #555; border-left: none; margin-top: 2rem; padding: 2rem 0;}
 	footer {padding: 1rem;}
@@ -248,6 +250,7 @@ footer {background-color: #eee; display: flex; flex-wrap: wrap; justify-content:
 	.menu_1, .menu_2 {flex-direction: column; align-items: flex-start;}
 	.menu_2 span {display: none;}
 	.carousel {margin: 1rem auto 3rem;}
+	.category-page .category .uniq {border: none;}
 	footer {padding: 2rem 1rem;}
 	footer .footer-adt-dtls {margin-top: 2rem; width: 100%;}
 }
